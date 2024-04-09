@@ -1,0 +1,19 @@
+{
+    "name": "wso-types-sdk",
+    "version": "0.0.4",
+    "description": "Types SDK for Wenso Platform",
+    "main": "./index.js",
+    "types": "./index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "clean-build": "rm -rf dist",
+        "build-release": "pnpm i && pnpm clean-build && pnpm build && npm publish"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "wso-prisma-sdk": "^0.0.1",
+        "typescript": "^5.4.3"
+    }
+}
